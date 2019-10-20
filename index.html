@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/stylesheets/active_img.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="contact">
+                <div class="contact--image">
+                    <img id="myImg" src="./assets/images/photo.jpeg" alt="me">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+                <div class="contact--info">
+                    <h1 class="contact--title">Yuriy Shilenkov</h1>
+                    <a class="contact--link" href="https://github.com/Yuriy17" target="_blank">Github</a>
+                    <a class="contact--link" href="https://www.linkedin.com/in/yuriy-shilenkov-35923a150/"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+
+            <div class="education">
+                <h2 class="education--title">
+                    Education
+                    <span class="education--close"></span>
+                    <span class="education--open"></span>
+                </h2>
+                <ul class="education--list">
+                    <li class="education--item">School<br>2003-2014</li>
+                    <li class="education--item">University <br> 2014-2018</li>
+                    <li class="education--item">Rsschool <br>2019-2020</li>
+                </ul>
+            </div>
+            <h2>
+                Projects
+            </h2>
+            <div class="projects">
+                <div class="projects--swiper swiper-container">
+                    <div class="slider swiper-wrapper">
+                        <div class="slider--slide swiper-slide">
+                            <div class="slider--slide_description">
+                                <h3 class="slider--slide_description_title">
+                                    Theyalow
+                                </h3>
+                                <ul class="slider--slide_description_list">
+                                    <li class="slider--slide_description_item">Better</li>
+                                    <li class="slider--slide_description_item">Then</li>
+                                    <li class="slider--slide_description_item">Ever</li>
+                                </ul>
+                                <a href="" class="slider--slide_description_btn">Tap on image to see a project</a>
+                            </div>
+                            <iframe class="slider--view" src="./projects/theyalow/index.html"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="slider--slide swiper-slide">
+                            <div class="slider--slide_description">
+                                <h3 class="slider--slide_description_title">
+                                    Repair-design-project
+                                </h3>
+                                <ul class="slider--slide_description_list">
+                                    <li class="slider--slide_description_item">Better</li>
+                                    <li class="slider--slide_description_item">Then</li>
+                                    <li class="slider--slide_description_item">Ever</li>
+                                </ul>
+                                <a href="" class="slider--slide_description_btn">Tap on image to see a project</a>
+                            </div>
+                            <iframe class="slider--view" src="./projects/repair-design-project/index.html"
+                                frameborder="0"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <iframe class="mobile_version" src="./projects/theyalow/index.html" frameborder="0"></iframe>
+        <iframe class="desktop_version" src="./projects/repair-design-project/index.html" frameborder="0"></iframe>
+        <a href="" class="btn_mobile_version"></a>
+        <a href="" class="btn_desktop_version"></a>
+    </main>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/swiper.js"></script>
+    <script type="text/javascript" src="assets/scripts/active_img.js"></script>
+</body>
+
+</html>
