@@ -32,12 +32,11 @@
             </div>
 
             <div class="education">
-                <h2 class="education--title">
+                <a class="education--title toggle" href="#education">
                     Education
-                    <span class="education--close"></span>
-                    <span class="education--open"></span>
-                </h2>
-                <ul class="education--list">
+                    <span class="education--arrow"></span>
+                </a>
+                <ul class="education--list toggle-content" id="education">
                     <li class="education--item">School<br>2003-2014</li>
                     <li class="education--item">University <br> 2014-2018</li>
                     <li class="education--item">Rsschool <br>2019-2020</li>
@@ -61,9 +60,8 @@
                                 </ul>
                                 <a href="" class="slider--slide_description_btn">Tap on image to see a project</a>
                             </div>
-                            <iframe class="slider--view" src="./projects/theyalow/index.html"
-                                frameborder="0"></iframe>
-                        </div>
+                            <img class="slider--view" src="./assets/images/theyalow.png" alt="Theyalow project">
+<!--                             <iframe class="slider--view" src="./projects/theyalow/index.html" frameborder="0"></iframe>-->                        </div>
                         <div class="slider--slide swiper-slide">
                             <div class="slider--slide_description">
                                 <h3 class="slider--slide_description_title">
@@ -76,24 +74,24 @@
                                 </ul>
                                 <a href="" class="slider--slide_description_btn">Tap on image to see a project</a>
                             </div>
-                            <iframe class="slider--view" src="./projects/repair-design-project/index.html"
-                                frameborder="0"></iframe>
+                            <img class="slider--view" src="./assets/images/repair-design-project.png" alt="Repair-design-project">
+<!--                             <iframe class="slider--view" src="./projects/repair-design-project/index.html"
+                                frameborder="0"></iframe> -->
                         </div>
                     </div>
-
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
         </div>
-        <iframe class="mobile_version" src="./projects/theyalow/index.html" frameborder="0"></iframe>
-        <iframe class="desktop_version" src="./projects/repair-design-project/index.html" frameborder="0"></iframe>
+        <iframe class="site_view" frameborder="0"></iframe>
         <a href="" class="btn_mobile_version"></a>
         <a href="" class="btn_desktop_version"></a>
     </main>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script type="text/javascript" src="assets/scripts/swiper.js"></script>
     <script type="text/javascript" src="assets/scripts/active_img.js"></script>
+    <script type="text/javascript" src="assets/scripts/fade.js"></script>
 </body>
 
 </html>
