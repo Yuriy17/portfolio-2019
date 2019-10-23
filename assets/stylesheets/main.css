@@ -259,6 +259,9 @@ html {
 
 @media (max-width:600px) {
     .slider--slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 
@@ -269,31 +272,31 @@ html {
     .slider--slide_description.active {
         display: flex;
         position: absolute;
-        width: 80%;
-        height: 80%;
-        justify-content: center;
-        align-content: center;
+        width: 60%;
+        height: 70%;
+
         z-index: 16;
     }
 
-    .slider--slide_description.active {
-        display: absolute;
-        width: 80%;
-    }
 
     .slider--description {
-        display: inline;
-        min-width: 176px;
+        display: flex;
+        justify-content: center;
+        min-width: 198px;
         border-radius: 7px;
         position: absolute;
         font-size: 20px;
-        top: 10%;
+        top: 5%;
         left: 50%;
         transform: translateX(-50%);
         font-weight: bold;
         text-decoration: none;
         background: lightgray;
         z-index: 14;
+    }
+
+    .change_state_btn.active {
+        display: none;
     }
 
     .slider--description:hover {

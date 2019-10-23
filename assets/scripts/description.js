@@ -4,18 +4,18 @@ document.addEventListener('click', function (event) {
 
     event.preventDefault();
 
-    let description = document.querySelector(".slider--slide_description");
-    for(let descr in document.querySelector(".slider--slide_description")){
-        if (descr.nextSibling = document.querySelector(".slider--slide_description")
-    }
-    alert(description.classList);
+    //active slider--slide_description
+    let description = document.querySelector(".swiper-slide-active").children[0];
+
     if (description.classList.contains('active')) {
         description.classList.remove('active');
-        event.target.innerHTML = 'Show description';
     } else {
         description.classList.add('active');
-        event.target.innerHTML = 'Hide description';
     }
-    alert(description.classList);
+    if (event.target.innerHTML === 'Show description') {
+        event.target.innerHTML = 'Hide description';
+    } else {
+        event.target.innerHTML = 'Show description';
+    }
 
 }, false);
