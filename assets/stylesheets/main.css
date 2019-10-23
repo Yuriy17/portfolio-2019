@@ -128,8 +128,12 @@ html {
     margin-bottom: 10%;
 }
 
-.slider--view {
+.slider--view_link {
     width: 64%;
+
+}
+.slider--view {
+
     object-fit: cover;
 }
 
