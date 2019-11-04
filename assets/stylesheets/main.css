@@ -134,8 +134,7 @@ html {
 }
 
 .slider--view {
-
-    object-fit: cover;
+    width: 100%;
 }
 
 .slider--description {

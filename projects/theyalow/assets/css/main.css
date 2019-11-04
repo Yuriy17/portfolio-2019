@@ -122,6 +122,7 @@ header>.title, #list{
   position: absolute;
   width: 549px;
   padding-left: 1px;
+  cursor: pointer;
 }
 .video img:hover{
 -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
@@ -156,6 +157,10 @@ label[for=poster]>h2:last-child{
   width: 1300px;
   justify-content: space-between;
   margin-top: 299px;
+}
+
+.nav-buttons img{
+  cursor: pointer;
 }
 
 /* ICON_AREA */
@@ -525,7 +530,7 @@ footer>.inner_wrapper>h2{
       background-image:none;
   }
   .item{
-    border-right: none;
+    border-right: 1px solid #9b7d08;
   }
   .item a{
     height: 62px;
